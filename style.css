@@ -1,0 +1,58 @@
+*{
+    font-family: "Parkinsans"
+}
+header{
+    background-color: #be95c4;
+
+.nav-link{
+    color: #3c0a43;
+}
+}
+#app{
+    color: #be95c4;
+}
+.boton-cv{
+    background-color: #be95c4;
+    color: #dccde8;
+}
+.habilidades{
+    background-color: #e5d3e8;
+    border-radius: 50px;
+    color: #3c0a43;
+}
+h1{
+    color: #aa4fb6;
+}
+h2{
+    color: #3c0a43;
+}
+h3{
+    color: #aa7ab1;
+}
+.btn-proyecto{
+    background-color: #e5d3e8;
+}
+.btn-proyecto a{
+    text-decoration: none;
+    color: #3c0a43;
+}
+.card .card-title{
+    color: #aa7ab1;
+}
+#btn-contacto{
+    background-color: #e9ceed;
+    color: #3c0a43;
+}
+#btn-contacto:hover{
+    background-color: #aa7ab1;
+}
+footer li a i{
+    color: #aa4fb6;
+}
+footer p{
+    color: #580f62;
+}
+footer p a{
+    text-decoration: none;
+    color: #aa4fb6;
+}

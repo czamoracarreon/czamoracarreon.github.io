@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CDN Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- icons de bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/easel.svg" type="image/x-icon">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+  <!-- Archivo CSS -->
+   <link rel="stylesheet" href="style.css">
+  <title>Carla Paola Zamora</title>
+</head>
+
+<body>
+  <header class="p-3 text-bg">
+    <div class="container" id="sobre">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <i class="bi bi-easel"></i>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a id="boton-perfil" href="#sobre" class="nav-link px-2 text-secondary-dark">Sobre mí</a></li>
+          <li><a href="#proyectos" class="nav-link px-2 text-white">Proyectos</a></li>
+          <li><a href="#hanging-icons habilidades" class="nav-link px-2 text-white">Habilidades</a></li>
+          <li><a href="#testimonios" class="nav-link px-2 text-white">Testimonios</a></li>
+          <li><a href="#contacto" class="nav-link px-2 text-white">Contacto</a></li>
+        </ul>
+
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+          <input type="search" class="form-control form-control-dark text-bg" placeholder="Search..."
+            aria-label="Search">
+        </form>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-dark">Sign-up</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="hero">
+      <div class="px-4 py-5 my-5 text-center">
+        <img class="d-block mx-auto mb-4" src="assets/Profile.png" alt="" width="200">
+        <h1 class="display-5 fw-bold text-body-emphasis">Carla Paola Zamora</h1>
+        <!-- Texto Typewriter -->
+        <h2 id="app"></h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Diseñadora y fotógrafa freelance. Egresada de la Facultad de Artes y Diseño de la UNAM en
+            la especialidad de Edición Gráfica con distinción por desempeño académico</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-secondary btn-lg px-4 boton-cv">Link al CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Habilidades -->
+    <div class="habilidades container px-4 py-5" id="hanging-icons habilidades">
+      <h2 class="pb-2 border-bottom">Habilidades</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square  d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+            <i class="bi bi-palette2 px-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2">Diseño Gráfico</h3>
+            <p>Egresada de la Licenciatura en Diseño y Comunicación Visual de la Facultad de Artes y Diseño de la UNAM.</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square  d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+            <i class="bi bi-camera px-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2">Fotografía</h3>
+            <p>Con más de cuatro años de experiencia. Tengo conocimiento en fotografía análoga y digital. Me encanta la
+              fotografía de retrato, mascotas y eventos sociales</p>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start">
+          <div
+            class="icon-square d-inline-flex align-items-center justify-content-center fs-1 flex-shrink-0 me-3">
+            <i class="bi bi-filetype-html px-1"></i>
+          </div>
+          <div>
+            <h3 class="fs-2">Desarrollo Frontend</h3>
+            <p>Con conocimiento básico en HTML, CSS Y JavaScript. Bootcamp TecnoloChicas Otoño 2024</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <!-- Proyectos -->
+    <div id="proyectos" class="proyectos container">
+      <h2 class="pb-2 border-bottom">Proyectos</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card card-img-top" src="assets/Revista.png" alt="">
+            <div class="card-body">
+              <p class="card-text">Cosecha Veggie: maquetación, fotografía y redacción</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto btn-proyecto"><a target="_blank"
+                      href="https://www.behance.net/gallery/154733883/Cosecha-Veggie">Ver</a></button>
+                </div>
+                <small class="text-body-secondary">Indesign</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card card-img-top" src="assets/Pinterest.png" alt="">
+            <div class="card-body">
+              <p class="card-text">Clon de Pinterest</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto btn-proyecto"><a target="_blank"
+                      href="https://pinterest-clon-lilac.vercel.app/">Ver</a></button>
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto btn-proyecto"><a target="_blank"
+                      href="https://github.com/czamoracarreon/pinterest-clon">Github</a></button>
+                </div>
+                <small class="text-body-secondary">HTML y CSS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card card-img-top" src="assets/Sala.png" alt="">
+            <div class="card-body">
+              <p class="card-text"></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto btn-proyecto"><a target="_blank"
+                      href="https://www.behance.net/gallery/203199955/Living-Room-Design-Moodboard">Ver</a></button>
+                </div>
+                <small class="text-body-secondary">Moodboard</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card card-img-top" src="assets/Fanzine.png" alt="">
+            <div class="card-body">
+              <p class="card-text">Genderzine: El fanzine de género</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto btn-proyecto"><a target="_blank"
+                      href="https://www.behance.net/gallery/154734189/Genderzine-el-fanzine-de-gnero">Ver</a></button>
+                </div>
+                <small class="text-body-secondary">Diseño Editorial</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card card-img-top" src="assets/Ilustracion.png" alt="">
+            <div class="card-body">
+              <p class="card-text">Pipí by Jaime Chabaud</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto btn-proyecto"><a target="_blank"
+                      href="https://www.behance.net/gallery/200107299/Pipi-by-Jaime-Chabaud">Ver</a></button>
+                </div>
+                <small class="text-body-secondary">Illustración Digital</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card card-img-top" src="assets/portada.png" alt="">
+            <div class="card-body">
+              <p class="card-text">Diseño de portada</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto btn-proyecto"><a target="_blank"
+                      href="https://www.behance.net/gallery/154734097/Confesiones-de-una-mascara">Ver</a></button>
+                </div>
+                <small class="text-body-secondary">Diseño Editorial</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card card-img-top" src="assets/Musa.png" alt="">
+            <div class="card-body">
+              <p class="card-text">Diseño de tarjetas de presentación</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <small class="text-body-secondary">Illustrator</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img class="bd-placeholder-img card card-img-top" src="assets/Carey.jpg" alt="">
+            <div class="card-body">
+              <p class="card-text">Mi primer página web</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto">Edit</button>
+                </div>
+                <small class="text-body-secondary">HTML, CSS</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
+              role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                dy=".3em">Próximamente</text>
+            </svg>
+            <div class="card-body">
+              <p class="card-text">Siguiente proyecto</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-light btn-proyecto">Edit</button>
+                </div>
+                <small class="text-body-secondary">JavaScript</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonios -->
+    <div id="testimonios" class="testimonios container mt-4">
+      <h2 class="pb-2 border-bottom">Testimonios</h2>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center">
+              <!-- Card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/User1.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title text-center">Anel Montes de Oca</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-center">Mentora</h6>
+                <div class="card-body">
+                  <p class="card-text">Carla Paola Zamora muestra un rápido progreso en la adquisición de habilidades técnicas clave y una gran disposición para colaborar en proyectos. Su actitud positiva y su voluntad de aprender constantemente son cualidades valiosas en el campo de la programación. No tengo dudas de que Carla seguirá creciendo y haciendo contribuciones significativas como desarrolladora frontend en el futuro.</p>
+                </div>
+              </div>
+              <!-- fin card -->
+            </div>
+
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- Inicio Card -->
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/User2.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title text-center">Marcos González</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-center">Sr. Graphic Designer</h6>
+                <div class="card-body">
+                  <p class="card-text">"Paola is not only an good designer but also a collaborative and reliable team player. She approaches every project with enthusiasm and a proactive mindset, always eager to contribute her expertise to achieve the best possible results." </p>
+                </div>
+              </div>
+              <!-- Fin Card -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center">
+              <!-- Inicio Card -->
+
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/User3.jpg" class="card-img-top" alt="...">
+                <h5 class="card-title text-center">Diana Cedillo</h5>
+                <h6 class="card-subtitle mb-2 text-body-secondary text-center">Front Comercial Hipotecario BBVA</h6>
+                <div class="card-body">
+                  <p class="card-text">"Carla es una profesional confiable, actualizada y creativa. Confío en ella para realizar mis proyectos personales de imagen corporativa y diseño gráfico"</p>
+                </div>
+              </div>
+              <!-- Fin card -->
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="px-4 py-5 my-5 text-center">
+      <i class="bi bi-envelope fs-1"></i>
+      <h1 class="display-5 fw-bold">Contáctame</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Me encantará trabajar contigo, en caso de que tengas alguna duda o requieras un presupuesto puedes escribirme y con gusto atenderé tu solicitud</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <a href="mailto:zamoracarreon@outlook.com">
+          <button id="btn-contacto" class="btn btn-secondary btn-lg px-4 gap-3">Enviar mail</button>
+        </a>
+        </div>
+      </div>
+    </div>
+
+    
+
+  </main>
+
+    <footer class="py-3 my-4" id="contacto"> 
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="https://www.linkedin.com/in/carlazamoracar/" class="nav-link px-2 text-body-secondary"><i class="bi bi-linkedin"></i></a></li>
+        <li class="nav-item"><a href="https://www.instagram.com/zamorafotografia/" class="nav-link px-2 text-body-secondary"><i class="bi bi-instagram"></i></a></li>
+        <li class="nav-item"><a href="https://github.com/czamoracarreon" class="nav-link px-2 text-body-secondary"><i class="bi bi-github"></i></a></li>
+        <li class="nav-item"><a href="https://www.behance.net/musapropia" class="nav-link px-2 text-body-secondary"><i class="bi bi-behance"></i></a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Creado por Carla Zamora en el Bootcamp de 
+      <a href="https://tecnolochicas.mx/" class="">TecnoloChicasPro</a></p>
+    </footer>
+
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- CDN Typewriter -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- main Js -->
+  <script src="main.js"></script<
+</body>
+</html>
